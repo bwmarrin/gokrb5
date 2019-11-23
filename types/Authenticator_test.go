@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bwmarrin/gokrb5/iana"
+	"github.com/bwmarrin/gokrb5/iana/adtype"
+	"github.com/bwmarrin/gokrb5/iana/nametype"
+	"github.com/bwmarrin/gokrb5/test/testdata"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/jcmturner/gokrb5.v7/iana"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/adtype"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/nametype"
-	"gopkg.in/jcmturner/gokrb5.v7/test/testdata"
 )
 
 func unmarshalAuthenticatorTest(t *testing.T, v string) Authenticator {

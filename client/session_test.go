@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bwmarrin/gokrb5/config"
+	"github.com/bwmarrin/gokrb5/iana/etypeID"
+	"github.com/bwmarrin/gokrb5/keytab"
+	"github.com/bwmarrin/gokrb5/test"
+	"github.com/bwmarrin/gokrb5/test/testdata"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/jcmturner/gokrb5.v7/config"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/etypeID"
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/test"
-	"gopkg.in/jcmturner/gokrb5.v7/test/testdata"
 )
 
 func TestMultiThreadedClientSession(t *testing.T) {

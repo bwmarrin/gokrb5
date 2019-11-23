@@ -5,16 +5,16 @@ import (
 	"math"
 	"testing"
 
+	"github.com/bwmarrin/gokrb5/client"
+	"github.com/bwmarrin/gokrb5/credentials"
+	"github.com/bwmarrin/gokrb5/gssapi"
+	"github.com/bwmarrin/gokrb5/iana/msgtype"
+	"github.com/bwmarrin/gokrb5/iana/nametype"
+	"github.com/bwmarrin/gokrb5/messages"
+	"github.com/bwmarrin/gokrb5/test/testdata"
+	"github.com/bwmarrin/gokrb5/types"
 	"github.com/jcmturner/gofork/encoding/asn1"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/jcmturner/gokrb5.v7/client"
-	"gopkg.in/jcmturner/gokrb5.v7/credentials"
-	"gopkg.in/jcmturner/gokrb5.v7/gssapi"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/msgtype"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/nametype"
-	"gopkg.in/jcmturner/gokrb5.v7/messages"
-	"gopkg.in/jcmturner/gokrb5.v7/test/testdata"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
 )
 
 const (

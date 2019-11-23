@@ -6,16 +6,16 @@ import (
 	"fmt"
 	"time"
 
-	"gopkg.in/jcmturner/gokrb5.v7/config"
-	"gopkg.in/jcmturner/gokrb5.v7/credentials"
-	"gopkg.in/jcmturner/gokrb5.v7/crypto"
-	"gopkg.in/jcmturner/gokrb5.v7/crypto/etype"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/errorcode"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/nametype"
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/krberror"
-	"gopkg.in/jcmturner/gokrb5.v7/messages"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
+	"github.com/bwmarrin/gokrb5/config"
+	"github.com/bwmarrin/gokrb5/credentials"
+	"github.com/bwmarrin/gokrb5/crypto"
+	"github.com/bwmarrin/gokrb5/crypto/etype"
+	"github.com/bwmarrin/gokrb5/iana/errorcode"
+	"github.com/bwmarrin/gokrb5/iana/nametype"
+	"github.com/bwmarrin/gokrb5/keytab"
+	"github.com/bwmarrin/gokrb5/krberror"
+	"github.com/bwmarrin/gokrb5/messages"
+	"github.com/bwmarrin/gokrb5/types"
 )
 
 // Client side configuration and state.

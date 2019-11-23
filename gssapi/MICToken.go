@@ -8,9 +8,9 @@ import (
 	"errors"
 	"fmt"
 
-	"gopkg.in/jcmturner/gokrb5.v7/crypto"
-	"gopkg.in/jcmturner/gokrb5.v7/iana/keyusage"
-	"gopkg.in/jcmturner/gokrb5.v7/types"
+	"github.com/bwmarrin/gokrb5/crypto"
+	"github.com/bwmarrin/gokrb5/iana/keyusage"
+	"github.com/bwmarrin/gokrb5/types"
 )
 
 /*

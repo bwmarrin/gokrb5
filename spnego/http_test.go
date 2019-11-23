@@ -15,14 +15,14 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/bwmarrin/gokrb5/client"
+	"github.com/bwmarrin/gokrb5/config"
+	"github.com/bwmarrin/gokrb5/keytab"
+	"github.com/bwmarrin/gokrb5/service"
+	"github.com/bwmarrin/gokrb5/test"
+	"github.com/bwmarrin/gokrb5/test/testdata"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/jcmturner/goidentity.v3"
-	"gopkg.in/jcmturner/gokrb5.v7/client"
-	"gopkg.in/jcmturner/gokrb5.v7/config"
-	"gopkg.in/jcmturner/gokrb5.v7/keytab"
-	"gopkg.in/jcmturner/gokrb5.v7/service"
-	"gopkg.in/jcmturner/gokrb5.v7/test"
-	"gopkg.in/jcmturner/gokrb5.v7/test/testdata"
 )
 
 func TestClient_SetSPNEGOHeader(t *testing.T) {
